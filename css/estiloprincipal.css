@@ -8,8 +8,8 @@ and open the template in the editor.
     Author     : cetecom
 */
 a.submenu{
-    /*margin: 0 0 0 20px;
-    padding: 0 0 0 60px;*/
+    margin: 0 0 0 20px;
+    padding: 0 0 0 60px;
     padding-left: 60px;
     display:none;
 }
@@ -22,27 +22,25 @@ a:hover{
  padding-left: 30px;   
   padding-top: 30px; 
   width: 400px;
-
 }
 
 #contenedor{
     width:100%;
 }
 #titulo{
+    height: 150px;
     width:100%;
-    height: 80px;
-    float: left;
-    background: red;
+    background: background;
 }
 #menu{
-    width: 30%;
-    height: 500px;
+    width: 20%;
+    height: 600px;
     float: left;
-    background: green;
+    background: beige;
 }
 #contenido{
-   width: 70%;
-   height: 500px; 
+   width: 80%;
+   height: 600px; 
    float: left;
-   background: yellow;
+   background: darkgrey;
 }
